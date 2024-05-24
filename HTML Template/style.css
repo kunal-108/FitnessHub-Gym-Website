@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+/*    Sass Template      */
+/*    Global Classes    */
+button,
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*  typography classes    */
+.font-baloo {
+  font-family: "Baloo Thambi 2";
+}
+
+.font-rubik {
+  font-family: "Rubik";
+}
+
+.font-poppins {
+  font-family: "Poppins";
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/* Color Template */
+.color-primary {
+  color: #05052e;
+}
+
+.color-primary-bg {
+  background: #05052e;
+}
+
+.color-secondary {
+  color: #259ad1;
+}
+
+.color-secondary-bg {
+  background: #259ad1;
+}
+
+.color-yellow {
+  color: #fefc83;
+}
+
+.color-yellow-bg {
+  background: #fefc83;
+}
+
+/* Top Sale Template */
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  font-size: 3rem;
+  color: #05052e;
+  margin-left: -3.5rem;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 3rem;
+  color: #05052e;
+  margin-right: -3.5rem;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
+  margin: 20px auto;
+  transition: scale 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  scale: 1.1;
+}
+
+/* Banner Template */
+#banner-area .carousel-item {
+  height: 550px;
+}
+#banner-area .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Special Price Template */
+#special-price .container .grid .grid-item {
+  margin-top: 1rem !important;
+  margin-right: 1.1rem !important;
+}
+#special-price .container .grid .product {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#special-price .container .grid .product img {
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
+  margin: 20px auto;
+  transition: scale 0.5s ease;
+}
+#special-price .container .grid .product img:hover {
+  scale: 1.1;
+}
+
+/* New Equipments */
+#new-equipments .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#new-equipments .owl-carousel .item .product img {
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
+  margin: 20px auto;
+  transition: scale 0.5s ease;
+}
+#new-equipments .owl-carousel .item .product img:hover {
+  scale: 1.1;
+}
+
+/*# sourceMappingURL=style.css.map */

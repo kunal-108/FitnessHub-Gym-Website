@@ -1,0 +1,23 @@
+/* Special Price Template */
+
+#special-price {
+    .container .grid .grid-item {
+        margin-top: 1rem !important;
+        margin-right: 1.1rem !important;
+    }
+    .container .grid .product {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container .grid .product img {
+        width: 150px;
+        height: 200px;
+        object-fit: contain;
+        margin: 20px auto;
+        transition: scale 0.5s ease;
+    }
+    .container .grid .product img:hover {
+        scale: 1.1;
+    }
+}
